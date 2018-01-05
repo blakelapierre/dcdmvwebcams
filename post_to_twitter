@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#./tweet.sh upload images/dcdmv.jpg
+
+media_id=$(./tweet.sh upload images/dcdmv.jpg | jq -r '.media_id_string') && \
+
+echo "Uploaded media, got id: $media_id" && \
+
+./tweet.sh tw -m "$media_id" Service Center Webcams

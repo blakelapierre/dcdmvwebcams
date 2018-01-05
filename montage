@@ -1,0 +1,9 @@
+#!/bin/sh
+
+montage images/BR/1/video.jpg images/BR/2/video.jpg images/BR/4/video.jpg -geometry +0+0 -tile 2x2 images/BR.jpg
+montage images/gt/1/video.jpg images/gt/2/video.jpg images/gt/3/video.jpg images/gt/4/video.jpg -geometry +0+0 -tile 2x2 images/gt.jpg
+montage images/RIsland/1/video.jpg images/RIsland/2/video.jpg images/RIsland/3/video.jpg -geometry +0+0 -tile 2x2 images/RIsland.jpg
+montage images/95m/1/video.jpg images/95m/2/video.jpg images/95m/3/video.jpg -geometry +0+0 -tile 2x2 images/95m.jpg
+
+
+montage -label "Benning Ridge" images/BR.jpg -label "Georgetown" images/gt.jpg -label "Rhode Island" images/RIsland.jpg -label "Southwest" images/95m.jpg -geometry 160x120>+0+0 -frame 5 images/dcdmv.jpg

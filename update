@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./retrieve && ./montage && ./post_to_twitter

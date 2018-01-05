@@ -1,0 +1,46 @@
+#!/bin/sh
+
+mkdir -p images/BR/1
+mkdir -p images/BR/2
+mkdir -p images/BR/4
+
+mkdir -p images/gt/1
+mkdir -p images/gt/2
+mkdir -p images/gt/3
+mkdir -p images/gt/4
+
+mkdir -p images/RIsland/1
+mkdir -p images/RIsland/2
+mkdir -p images/RIsland/3
+
+mkdir -p images/95m/1
+mkdir -p images/95m/2
+mkdir -p images/95m/3
+
+#Benning Ridge Service Center
+
+wget -O images/BR/1/video.jpg https://ftp.dmv.washingtondc.gov/w/BR1/video.jpg
+wget -O images/BR/2/video.jpg https://ftp.dmv.washingtondc.gov/w/BR2/video.jpg
+wget -O images/BR/4/video.jpg https://ftp.dmv.washingtondc.gov/w/BR4/video.jpg
+
+
+#Georgetown Service Center
+
+wget -O images/gt/1/video.jpg https://ftp.dmv.washingtondc.gov/w/gt1/video.jpg
+wget -O images/gt/2/video.jpg https://ftp.dmv.washingtondc.gov/w/gt2/video.jpg
+wget -O images/gt/3/video.jpg https://ftp.dmv.washingtondc.gov/w/gt3/video.jpg
+wget -O images/gt/4/video.jpg https://ftp.dmv.washingtondc.gov/w/gt4/video.jpg
+
+
+#Rhode Island Service Center
+
+wget -O images/RIsland/1/video.jpg https://ftp.dmv.washingtondc.gov/w/RIsland1/video.jpg
+wget -O images/RIsland/2/video.jpg https://ftp.dmv.washingtondc.gov/w/RIsland2/video.jpg
+wget -O images/RIsland/3/video.jpg https://ftp.dmv.washingtondc.gov/w/RIsland3/video.jpg
+
+
+#Southwest Service Center
+
+wget -O images/95m/1/video.jpg https://ftp.dmv.washingtondc.gov/w/95m1/video.jpg
+wget -O images/95m/2/video.jpg https://ftp.dmv.washingtondc.gov/w/95m2/video.jpg
+wget -O images/95m/3/video.jpg https://ftp.dmv.washingtondc.gov/w/95m3/video.jpg
